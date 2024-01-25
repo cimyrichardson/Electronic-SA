@@ -1,0 +1,126 @@
+#home{
+    margin-top: 175px;
+    height: calc(80vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.left h3{
+    margin-bottom: 45px;
+    margin-top: 40px;
+    color: #333;
+    text-align: justify;
+    
+}
+
+#home .left{
+    width: 40%;  
+}
+#home .left h1{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+#home .left h1 span{
+    color:  #28ff;
+}
+#home .left p{
+    margin-bottom: 30px;
+    color: black;
+    font-size: 13px; 
+}
+
+#home .left a{
+    background-color: #28ff;
+    
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    position: relative;
+}
+#home .left a:hover{
+    background-color: #00FF00;
+}
+#home .right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home .right img{
+    width: 100%;
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(33,33,33);
+    color: white;
+    height: 185px;
+  }
+  
+  .footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+  }
+  
+  .fMenuTitle {
+    font-size: 16px;
+  }
+  
+  .fList {
+    padding: 0;
+    list-style: none;
+    color: white;
+  }
+  
+  .fListItem {
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fInput {
+    padding: 5px;
+  }
+  
+  .fButton {
+    padding: 5px;
+    background-color: #28ff;
+    width: 70px;
+    color: white;
+  }
+  
+  .fIcons{
+    display: flex;
+    color: white;
+  }
+  
+  .fIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .copyright{
+    font-weight: 300;
+    font-size: 14px;
+  }
